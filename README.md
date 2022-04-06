@@ -13,7 +13,8 @@
 <br>
 
 <p align="center">
-  <img alt="Personal Portfólio Webpage" src="https://imgur.com/EPUer6Z" width="100%">
+  
+  <img alt="Personal Portfólio Webpage" src="https://i.imgur.com/EPUer6Z.png" width="80%">
 </p>
 
 ## 🚀 Tecnologias
@@ -37,7 +38,9 @@ Personal Portifólio Webpage é o 5º desafio do bootcamp "Responsive Web Design
 
 Você pode visualizar o projeto no ar através [desse link](https://joseronaldo-portfolio.netlify.app/).
 
+## 📝 Licença
 
+Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](.github/LICENSE.md) para mais detalhes.
 ---
 
 Feito com ♥ by José Ronaldo :wave:

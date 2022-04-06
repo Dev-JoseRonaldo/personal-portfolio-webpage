@@ -10,6 +10,8 @@
   --text-color: #ffffff;
   --text-secundary-color: #A62D31;
 
+  --hover-text: #acacac;
+
   --primary-font: 'Poppins', sans-serif;
   --secundary-font: 'Raleway', sans-serif;
 }
@@ -25,6 +27,8 @@ body {
 }
 
 #navbar {
+  position: fixed;
+  width: 100%;
   background-color: var(--bg-navegation);
   padding: 0 20px 0 20px;
 }
@@ -49,7 +53,7 @@ body {
 }
 
 #welcome-section {
-  height: calc(100vh - 66.4px);
+  height: 100vh;
   background-color: var(--bg-welcome);
   display: flex;
   flex-direction: column;
@@ -95,7 +99,6 @@ body {
   width: 100%;
   max-width: 1280px;
   margin: 0 auto;
-
 }
 
 #projects a {
@@ -145,4 +148,78 @@ body {
 
 #projects .btn:hover {
   background-color: var(--bg-navegation);
+}
+
+#contacts {
+  display: flex;
+  background-color: var(--bg-contact);
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  padding: 120px 0 170px 0;
+  border-bottom: 5px solid var(--text-secundary-color);
+}
+
+#contacts .text-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+#contacts .text-box h2 {
+  color: var(--text-color);
+  font-family: var(--secundary-font);
+  font-size: 57px;
+}
+
+#contacts .text-box p {
+  color: var(--text-color);
+  font-family: var(--primary-font);
+  font-size: 17px;
+  font-style: italic;
+}
+
+#contacts .contact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  font-size: 24px;
+  text-shadow: 2px 2px 1px #1f1f1f;
+}
+
+#contacts .contact a {
+  text-decoration: none;
+  color: var(--text-color);
+  transition: color ease-out 0.2s;
+}
+
+#contacts .contact a:hover {
+  color: var(--hover-text)
+}
+
+footer {
+  background-color: var(--bg-contact);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 90px 50px;
+  gap: 40px;
+}
+
+footer p {
+  color: var(--text-color);
+  font-size: 19px;
+}
+
+footer p a {
+  text-decoration: none;
+  color: var(--text-color);
+}
+
+footer p a:hover {
+  color: var(--hover-text)
 }

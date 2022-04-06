@@ -30,7 +30,7 @@ body {
   position: fixed;
   width: 100%;
   background-color: var(--bg-navegation);
-  padding: 0 20px 0 20px;
+  padding: 0 1.25rem 0 1.25rem;
 }
 
 #navbar ul {
@@ -44,8 +44,8 @@ body {
   display: inline-block;
   text-decoration: none;
   color: var(--text-color);
-  font-size: 20px;
-  padding: 18px;
+  font-size: 1.25rem;
+  padding: 1.125rem;
 }
 
 #navbar ul li a:hover {
@@ -64,32 +64,32 @@ body {
 
 #welcome-section h1 {
   color: var(--text-color);
-  font-size: 55px;
+  font-size: 3.4rem;
   font-family: var(--secundary-font);
 }
 
 #welcome-section p {
   color: var(--text-secundary-color);
-  font-size: 28px;
+  font-size: 1.75rem;
   font-style: italic;
   font-weight: 400;
 }
 
 #projects {
   background-color: var(--bg-projects);
-  padding: 90px 18px;
+  padding: 5.625rem 2.125rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 50px;
+  gap: 3.125rem;
 }
 
 #projects h2 {
   color: var(--text-color);
-  font-size: 39px;
+  font-size: 2.4rem;
   border-bottom: 2px solid var(--text-color);
-  padding: 0 20px 5px 20px;
+  padding: 0 1.25rem 0.3125rem 1.25rem;
 }
 
 .projects-content {
@@ -116,8 +116,8 @@ body {
 #projects p {
   background-color: var(--bg-contact);
   color: var(--text-color);
-  padding: 20px 0;
-  font-size: 19px;
+  padding: 1.25rem 0;
+  font-size: 1.188rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -126,7 +126,7 @@ body {
 
 #projects p .code {
   color: var(--bg-contact);
-  font-size: 20px;
+  font-size: 1.25rem;
   transition: color 0.2s ease-out;
 }
 
@@ -137,7 +137,7 @@ body {
 #projects .btn {
   background-color: var(--bg-contact);
   color: var(--text-color);
-  padding: 10px 20px;
+  padding: 0.625rem 1.25rem;
 
   display: flex;
   justify-content: center;
@@ -156,8 +156,8 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 40px;
-  padding: 120px 0 170px 0;
+  gap: 2.5rem;
+  padding: 7.5rem 0 10.625rem 0;
   border-bottom: 5px solid var(--text-secundary-color);
 }
 
@@ -172,13 +172,13 @@ body {
 #contacts .text-box h2 {
   color: var(--text-color);
   font-family: var(--secundary-font);
-  font-size: 57px;
+  font-size: 3.56rem;
 }
 
 #contacts .text-box p {
   color: var(--text-color);
   font-family: var(--primary-font);
-  font-size: 17px;
+  font-size: 1.1rem;
   font-style: italic;
 }
 
@@ -186,8 +186,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 30px;
-  font-size: 24px;
+  gap: 1.875rem;
+  font-size: 1.5rem;
   text-shadow: 2px 2px 1px #1f1f1f;
 }
 
@@ -206,13 +206,13 @@ footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 90px 50px;
-  gap: 40px;
+  padding: 5.625rem 3.125rem;
+  gap: 2.5rem;
 }
 
 footer p {
   color: var(--text-color);
-  font-size: 19px;
+  font-size: 1.188rem;
 }
 
 footer p a {
@@ -222,4 +222,102 @@ footer p a {
 
 footer p a:hover {
   color: var(--hover-text)
+}
+
+/* - - - - - Tablet - - - - - - - - */
+@media(max-width: 880px) {
+  * {
+    font-size: 15px;
+  }
+}
+
+/* - - - - - Mobile Grande - - - -  */
+@media(max-width: 690px) {
+  * {
+    font-size: 14px;
+  }
+
+  #projects h2 {
+    color: var(--text-color);
+    font-size: 2rem;
+    border-bottom: 2px solid var(--text-color);
+    padding: 0 1.25rem 0.3125rem 1.25rem;
+  }
+
+  footer {
+    background-color: var(--bg-contact);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4rem 1.5rem;
+    gap: 2.5rem;
+  }
+
+  footer p {
+    color: var(--text-color);
+    font-size: 0.9rem;
+  }
+}
+
+@media(max-width: 560px) {
+
+  * {
+    font-size: 12px;
+  }
+
+  #projects h2 {
+    color: var(--text-color);
+    font-size: 1.9rem;
+    border-bottom: 2px solid var(--text-color);
+    padding: 0 1.25rem 0.3125rem 1.25rem;
+  }
+
+  footer {
+    background-color: var(--bg-contact);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4rem 1.5rem;
+    gap: 2.5rem;
+  }
+
+  footer p {
+    color: var(--text-color);
+    font-size: 0.9rem;
+  }
+}
+
+/* - - - - - Mobile Pequeno - - - - */
+@media(max-width: 460px) {
+
+  * {
+    font-size: 10px;
+  }
+
+  #projects h2 {
+    color: var(--text-color);
+    font-size: 1.5rem;
+    border-bottom: 2px solid var(--text-color);
+    padding: 0 1.25rem 0.3125rem 1.25rem;
+  }
+
+  #contacts .text-box h2 {
+    color: var(--text-color);
+    font-family: var(--secundary-font);
+    font-size: 2.8rem;
+  }
+
+  footer {
+    background-color: var(--bg-contact);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4rem 1.5rem;
+    gap: 2.5rem;
+  }
+
+  footer p {
+    color: var(--text-color);
+    font-size: 0.9rem;
+  }
 }

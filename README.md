@@ -40,7 +40,9 @@ Você pode visualizar o projeto no ar através [desse link](https://joseronaldo-
 
 ## 📝 Licença
 
-Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](.github/LICENSE.md) para mais detalhes.
+Copyright (c) 2022 José Ronaldo de Souza Silva.
+
+Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](https://github.com/Dev-JoseRonaldo/Portfolio/blob/main/LICENSE.md) para mais detalhes.
 ---
 
 Feito com ♥ by José Ronaldo :wave:
